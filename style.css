@@ -2,5 +2,67 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: antiquewhite;
+  font-family: "Otomanopee One", sans-serif;
+}
+.flexible-cointainer {
+  display: flex;
+}
+h1 {
+  font-size: 50px;
+}
+p {
+  font-size: 20px;
+}
+.orange-color {
+  color: orange;
+}
+.salmon-color {
+  color: salmon;
+}
+.tomato-color {
+  color: tomato;
+}
+.header-bg {
+  background-image: url(/images/shapes/Frame\ 58.jpg);
+  background-repeat: no-repeat;
+}
+.head-para-txt,
+.about-para-txt {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+.half-width {
+  width: 50%;
+  margin: 5%;
+}
+.head-img {
+  width: 100%;
+}
+.middle-img {
+  width: 50%;
+  margin-left: 20%;
+}
+.order-food-btn,
+.contact-me-btn {
+  text-decoration: none;
+  background-image: linear-gradient(salmon, tomato);
+  padding: 10px 40px;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 50px;
+  font-weight: 900;
+}
+.middle-bg {
+  background-image: url(/images/shapes/Frame\ 59.jpg);
+}
+.my-recipe-head-txt {
+  text-align: center;
+}
+.my-recipe-head-txt h1 {
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+.my-recipe-head-txt p {
+  margin-bottom: 30px;
 }
