@@ -23,7 +23,7 @@ p {
   color: tomato;
 }
 .header-bg {
-  background-image: url(/images/shapes/Frame58.jpg);
+  background-image: url(./images/shapes/Frame58.jpg);
   background-repeat: no-repeat;
 }
 .head-para-txt,
@@ -54,7 +54,7 @@ p {
   font-weight: 900;
 }
 .middle-bg {
-  background-image: url(/images/shapes/Frame59.jpg);
+  background-image: url(./images/shapes/Frame59.jpg);
 }
 .my-recipe-head-txt {
   text-align: center;
