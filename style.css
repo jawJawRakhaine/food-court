@@ -33,9 +33,11 @@ nav a {
   text-decoration: none;
   font-size: 18px;
 }
+/* FLEX */
 .flexible-cointainer {
   display: flex;
 }
+/* TEXT SIZE */
 h1 {
   font-size: 50px;
 }
