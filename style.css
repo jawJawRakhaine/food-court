@@ -66,3 +66,25 @@ p {
 .my-recipe-head-txt p {
   margin-bottom: 30px;
 }
+.my-recipe-txt {
+  margin-top: 50px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.social-follwer {
+  box-shadow: 10px 10px 40px grey;
+  padding: 60px;
+  margin: 0 auto;
+  width: 70%;
+  display: flex;
+  border-radius: 10px;
+}
+.social {
+  margin: 0 auto;
+}
+.footer-div {
+  text-align: center;
+  padding: 50px;
+  margin-top: 80px;
+  background-color: dimgrey;
+}
