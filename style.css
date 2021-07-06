@@ -1,8 +1,37 @@
+/* RESET AND GLOBAL FONT */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Otomanopee One", sans-serif;
+}
+/* START MENU SECTION */
+.header {
+  height: 100px;
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7));
+}
+nav {
+  display: flex;
+  padding: 2% 6%;
+}
+nav a {
+  text-decoration: none;
+}
+.nav-links {
+  flex: 1;
+  text-align: right;
+}
+.nav-links ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+}
+.nav-links ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
 }
 .flexible-cointainer {
   display: flex;
@@ -13,6 +42,7 @@ h1 {
 p {
   font-size: 20px;
 }
+/* SPAN COLOR */
 .orange-color {
   color: orange;
 }
@@ -22,26 +52,32 @@ p {
 .tomato-color {
   color: tomato;
 }
+/* HEADER BACKGROUND */
 .header-bg {
   background-image: url(./images/shapes/Frame58.jpg);
   background-repeat: no-repeat;
 }
+/* HEADER TXT */
 .head-para-txt,
 .about-para-txt {
   margin-top: 10%;
   margin-bottom: 10%;
 }
+/* HALF-WIDTH */
 .half-width {
   width: 50%;
   margin: 5%;
 }
+/* HEAD BACKGROUND */
 .head-img {
   width: 90%;
 }
+/* MIDDLE BACKGROUND */
 .middle-img {
   width: 50%;
   margin-left: 20%;
 }
+/* ORDER AND CONTACT BUTTONS */
 .order-food-btn,
 .contact-me-btn {
   text-decoration: none;
@@ -53,13 +89,16 @@ p {
   border-radius: 50px;
   font-weight: 900;
 }
+/* ODER AND CONTACT BUTTONS HOVER ACTIONS */
 .order-food-btn:hover,
 .contact-me-btn:hover {
-  opacity: 0.8;
+  opacity: 0.5;
 }
+/* MIDDLE BACKGROUND */
 .middle-bg {
   background-image: url(./images/shapes/Frame59.jpg);
 }
+/* RECIPIES TXT */
 .recipe-txt {
   margin-bottom: 100px;
 }
@@ -78,35 +117,35 @@ p {
   text-align: center;
   margin-bottom: 100px;
 }
-/* .recipe-section {
-  width: 100%;
-} */
 .recipe-items {
   width: 80%;
   display: flex;
   margin-bottom: 100px;
   margin: 0 auto;
 }
+/* CARD ITEMS */
 .card {
   width: 27%;
   box-shadow: 10px 10px 40px grey;
   border-radius: 10px;
   margin: 0 auto;
+  transition: width 1s;
 }
 .card img {
   width: 82%;
   margin-top: 20px;
   margin-left: 30px;
+  border: 2px solid tomato;
+  border-radius: 22px;
 }
 .card h3,
 h6 {
   margin: 20px;
 }
-/* .recipe-items-card {
-  display: flex;
-  width: 30%;
-  padding: 10px;
+/* .card:hover {
+  width: 35%;
 } */
+/* SOCIAL FOLLOWERS */
 .social-follwer {
   box-shadow: 10px 10px 40px grey;
   padding: 60px;
@@ -118,6 +157,7 @@ h6 {
 .social {
   margin: 0 auto;
 }
+/* FOOTER */
 .footer-div {
   text-align: center;
   padding: 40px;
